@@ -1,8 +1,40 @@
-# React + Vite
+# Ammar Al-Sayari — Legacy 3D Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository preserves the original version of my personal developer portfolio before its Portfolio 26-8 redesign.
 
-Currently, two official plugins are available:
+The project grew with me over time and is kept as a record of my earlier design approach, projects, skills, and experiments with interactive 3D experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Links
+
+- Current portfolio: [amar9dev.com](https://amar9dev.com)
+- Legacy portfolio: [legacy.amar9dev.com](https://legacy.amar9dev.com)
+- Untouched source snapshot: [legacy-original](https://github.com/AmmarSayari/amar9dev-legacy-portfolio/tree/legacy-original)
+
+## Built with
+
+- React
+- Vite
+- Three.js
+- React Three Fiber and Drei
+- Framer Motion
+- Tailwind CSS
+- EmailJS
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Create a production build with:
+
+```bash
+npm run build
+```
+
+## Archive note
+
+The `legacy-original` tag points to the exact archived source before this repository received its dedicated documentation. The visual design and application code on `main` remain unchanged from that snapshot.
+
+This is an archived personal project rather than a maintained starter template. Its original dependency choices are intentionally preserved for historical accuracy.
